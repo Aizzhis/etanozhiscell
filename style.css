@@ -1,0 +1,48 @@
+body{
+    background-color: moccasin;
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+}
+
+.box{
+    background-color: rgb(27, 119, 114);
+    width: 40%;
+    margin: 2% auto;
+    text-align: center;
+    padding: 2% 0;
+    border-radius: 10px;
+}
+
+input{
+    width: 50%;
+    margin: 2% auto;
+    padding: 1%;
+}
+
+button:hover{
+    background-color: aliceblue;
+}
+ @media(max-width: 768px){
+    body{
+        background-color: moccasin ;
+    }
+    .box{
+        width: 80%;
+        margin: 5% auto;
+        margin-top: 30%;
+        padding: 6% 0;
+    }
+    button{
+        width: 60%;
+        margin: 2% auto;
+        padding: 4%;
+    }
+    input{
+        width: 80%;
+        margin: 4% auto;
+        padding: 4%;
+    }
+ }
